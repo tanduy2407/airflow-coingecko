@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import mysql.connector
 import time
-import pyspark
+# import pyspark
 
 
 list_coin = ['bitcoin', 'ethereum', 'binancecoin', 'ripple',
@@ -118,4 +118,3 @@ if __name__ == "__main__":
     # etl_info()
     conn = connect_mysql()
     etl_historical_info(conn)
-dfafa
