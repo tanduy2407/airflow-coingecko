@@ -118,3 +118,4 @@ if __name__ == "__main__":
     # etl_info()
     conn = connect_mysql()
     etl_historical_info(conn)
+dfafa
