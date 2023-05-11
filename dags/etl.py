@@ -2,13 +2,11 @@ import requests
 import pandas as pd
 import mysql.connector
 import time
-# import pyspark
 
 
-# list_coin = ['bitcoin', 'ethereum', 'binancecoin', 'ripple',
-#              'cardano', 'dogecoin', 'matic-network', 'solana']
+list_coin = ['bitcoin', 'ethereum', 'binancecoin', 'ripple',
+			 'cardano', 'dogecoin', 'matic-network', 'solana']
 
-list_coin = ['bitcoin', 'ethereum', 'binancecoin']
 def connect_mysql():
 	conn = mysql.connector.connect(host='localhost',
 								   database='coingecko',
